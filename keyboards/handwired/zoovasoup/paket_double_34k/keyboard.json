@@ -1,0 +1,29 @@
+{
+    "manufacturer": "zoovasoup",
+    "keyboard_name": "paket-double-34k",
+    "maintainer": "zoovasoup",
+    "development_board": "promicro",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "cols": ["C6", "D7", "E6", "B4", "B5"],
+        "rows": ["B1", "B3", "B2", "B6"]
+    },
+    "split": {
+        "enabled": true
+    },
+    "url": "https://github.com/zoovasoup",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0013",
+        "vid": "0xFEED"
+    },
+    "community_layouts": ["split_3x5_2"]
+}
